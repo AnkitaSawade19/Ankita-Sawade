@@ -3,109 +3,112 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ankita Sawade - Finance Portfolio</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ankita Sawade - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #f0f4f8, #ffffff);
+      color: #333;
     }
-    .hero {
-      background-color: #f5f8fa;
-      padding: 60px 20px;
+    header {
+      background-color: #3f51b5;
+      color: white;
+      padding: 40px 20px;
       text-align: center;
     }
-    .hero img {
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.2em;
+    }
+    .profile-img {
+      width: 160px;
+      height: 160px;
       border-radius: 50%;
-      width: 150px;
-      height: 150px;
+      margin-top: 20px;
+      border: 5px solid white;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
-    .section-title {
-      margin-top: 50px;
-      margin-bottom: 30px;
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      color: #f50057;
       text-align: center;
+      margin-bottom: 20px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    a.button {
+      display: inline-block;
+      background: #f50057;
+      color: white;
+      padding: 10px 20px;
+      margin: 10px 5px;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    a.button:hover {
+      background: #c51162;
     }
     footer {
-      background-color: #343a40;
+      background-color: #3f51b5;
       color: white;
-      padding: 20px;
       text-align: center;
-    }
-    a {
-      color: #0d6efd;
+      padding: 20px;
+      margin-top: 40px;
     }
   </style>
 </head>
 <body>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <!-- Linked image to blog -->
-    <a href="https://medium.com/@ankita.sawade/invisible-power-within-you-7b22288f1a7f" target="_blank">
-      <img src="ankita.jpg" alt="Ankita Sawade" />
-    </a>
+<header>
+  <img src="ankita.jpg" alt="Ankita Sawade" class="profile-img" />
+  <h1>Ankita Sawade</h1>
+  <p>Finance Professional | International Reporting | Tax Audit | Team Leader</p>
+  <div>
+    <a href="https://medium.com/@ankita.sawade/invisible-power-within-you-7b22288f1a7f" class="button" target="_blank">📖 Blog</a>
+    <a href="https://www.linkedin.com/in/ankita-sawade-6a3b93202" class="button" target="_blank">💼 LinkedIn</a>
+  </div>
+</header>
 
-    <!-- Linked name to LinkedIn -->
-    <h1 class="mt-3">
-      <a href="https://www.linkedin.com/in/ankita-sawade-6a3b93202?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-         target="_blank" style="text-decoration: none; color: black;">
-        Ankita Sawade
-      </a>
-    </h1>
+<section>
+  <h2>About Me</h2>
+  <p>
+    I'm Ankita Sawade, an experienced finance professional with an MBA in Finance (2022). I began at the associate level and have grown into a lead role, managing diverse teams and financial systems for international clients.
+    I specialize in international financial reporting, tax audits, and implementing scalable finance systems for SMEs.
+  </p>
+</section>
 
-    <p class="lead">Finance Professional | International Reporting | Tax Audit | Team Leader</p>
+<section>
+  <h2>Skills</h2>
+  <ul>
+    <li>International Financial Reporting Standards (IFRS)</li>
+    <li>Zoho Books, QuickBooks, Visma</li>
+    <li>Power BI, R Programming</li>
+    <li>SME Finance System Setup</li>
+    <li>Team Leadership & Compliance Management</li>
+  </ul>
+</section>
 
-    <!-- Buttons -->
-    <div class="mt-3">
-      <a href="https://medium.com/@ankita.sawade/invisible-power-within-you-7b22288f1a7f" target="_blank" class="btn btn-primary m-1">
-        📖 Read My Blog
-      </a>
-      <a href="https://www.linkedin.com/in/ankita-sawade-6a3b93202?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-         target="_blank" class="btn btn-outline-dark m-1">
-        💼 Connect on LinkedIn
-      </a>
-    </div>
-  </section>
+<section>
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:ankitasawade18@gmail.com">ankitasawade18@gmail.com</a></p>
+</section>
 
-  <!-- About Section -->
-  <section class="container">
-    <h2 class="section-title">About Me</h2>
-    <p>
-      I'm Ankita Sawade, an experienced finance professional with an MBA in Finance (2022). I began at the associate level and have grown into a lead role, managing diverse teams and financial systems for international clients. I specialize in international financial reporting, tax audits, and implementing scalable finance systems for SMEs.
-    </p>
-  </section>
-
-  <!-- Skills Section -->
-  <section class="container">
-    <h2 class="section-title">Skills</h2>
-    <ul>
-      <li>International Financial Reporting Standards (IFRS)</li>
-      <li>Zoho Books, QuickBooks, Visma</li>
-      <li>Power BI, R Programming</li>
-      <li>SME Finance System Setup</li>
-      <li>Team Leadership & Compliance Management</li>
-    </ul>
-  </section>
-
-  <!-- Blog Link -->
-  <section class="container">
-    <h2 class="section-title">My Blog</h2>
-    <p>
-      I write about personal growth, manifestation, and finance. Read my latest blog on Medium:
-      <a href="https://medium.com/@ankita.sawade/invisible-power-within-you-7b22288f1a7f" target="_blank">Invisible Power Within You</a>
-    </p>
-  </section>
-
-  <!-- Contact -->
-  <section class="container mb-5">
-    <h2 class="section-title">Contact</h2>
-    <p>Email: <a href="mailto:ankitasawade18@gmail.com">ankitasawade18@gmail.com</a></p>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 Ankita Sawade. All rights reserved.</p>
-  </footer>
+<footer>
+  <p>&copy; 2025 Ankita Sawade. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
